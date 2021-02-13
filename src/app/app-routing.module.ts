@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { BodyComponent } from './body/body.component';
+import { ContainerComponent } from './container/container.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { MainComponent } from './main/main.component';
 
 const routes: Routes = [{
   path: 'header',
@@ -20,7 +20,7 @@ const routes: Routes = [{
   pathMatch: 'full'
 },{
   path : 'main',
-  component : MainComponent 
+  component : ContainerComponent
 }];
 
 @NgModule({
