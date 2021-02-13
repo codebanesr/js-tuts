@@ -7,6 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { MainComponent } from './main/main.component';
+import { MaterialModule } from './material/material.module';
+
 
 @NgModule({
   declarations: [
@@ -17,6 +19,7 @@ import { MainComponent } from './main/main.component';
     MainComponent
   ],
   imports: [
+    MaterialModule,
     BrowserModule,
     AppRoutingModule
   ],
