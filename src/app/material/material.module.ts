@@ -33,12 +33,13 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
-import { A11yModule } from '@angular/cdk/a11y';
+import {A11yModule} from '@angular/cdk/a11y';
 import { PortalModule } from '@angular/cdk/portal';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { CdkStepperModule } from '@angular/cdk/stepper';
 import { CdkTableModule } from '@angular/cdk/table';
 import { CdkTreeModule } from '@angular/cdk/tree';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   exports: [
@@ -47,7 +48,7 @@ import { CdkTreeModule } from '@angular/cdk/tree';
     CdkStepperModule,
     CdkTableModule,
     CdkTreeModule,
-    // DragDropModule,
+    DragDropModule,
     MatAutocompleteModule,
     MatBadgeModule,
     MatBottomSheetModule,
@@ -92,7 +93,7 @@ import { CdkTreeModule } from '@angular/cdk/tree';
     CdkStepperModule,
     CdkTableModule,
     CdkTreeModule,
-    // DragDropModule,
+    DragDropModule,
     MatAutocompleteModule,
     MatBadgeModule,
     MatBottomSheetModule,
